@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <title>Watch-Movies</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="main-heading lg-heading">Movie I have to Watch</h1>
+        <input type="text" placeholder="Enter Movie Name" class="movie-name">
+        <label class="movie-type" for="hollywood">Hollywood</label><input type="radio" name="movie-type" id="hollywood" value="hollywood">
+        <label class="movie-type" for="bollywood">Bollywood</label><input type="radio" name="movie-type" id="bollywood" value="bollywood">
+        <label class="movie-type" for="anime">Anime</label><input type="radio" name="movie-type" id="anime" value="anime">
+        <button class="btn" type="button">Add To WatchList!</button>
+    </div>
+    <div class="watch-list">
+        <ul id="watchList">
+            <li>
+                <p>The Flash</p> <button class="btn-2  watched" type="button" onclick="strike(this)">Watched</button> <button class="btn-2 remove" type="button" onclick="removelist(this)">Remove</button>
+                <button class="btn-2 link" type="button"><a href="https://themoviesflix.cc/?s=flash" target="_blank">Links</a></button></li>
+            <li>
+                <p>Arrow</p> <button class="btn-2 watched" type="button" onclick="strike(this)">Watched</button> <button class="btn-2 remove" type="button" onclick="removelist(this)">Remove</button>
+                <button class="btn-2 link" type="button"><a href="https://themoviesflix.cc/?s=arrow" target="_blank">Links</a></button></li>
+            <li>
+                <p>Fantastic Beast</p> <button class="btn-2 watched" type="button" onclick="strike(this)">Watched</button> <button class="btn-2 remove" type="button" onclick="removelist(this)">Remove</button>
+                <button class="btn-2 link" type="button"><a href="https://themoviesflix.cc/?s=Fantastic beast" target="_blank">Links</a></button></li>
+            <li>
+                <p>Harry Potter</p> <button class="btn-2 watched" type="button" onclick="strike(this)">Watched</button> <button class="btn-2 remove" type="button" onclick="removelist(this)">Remove</button>
+                <button class="btn-2 link" type="button"><a href="https://themoviesflix.cc/?s=Harry potter" target="_blank">Links</a></button></li>
+        </ul>
+    </div>
+    <footer>
+        <p><a href="https://github.com/arun-kushwaha04/Watch-Movies.git" target="_blank">Get Source Code</a></p>
+        <p><a href="https://heuristic-varahamihira-8a6a64.netlify.app/" target="_blank">About ME</a></p>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+
+
+</html>
