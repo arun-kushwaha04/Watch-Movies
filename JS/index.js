@@ -55,11 +55,11 @@ function addelement(moviename, movietype) {
     let li = document.createElement("li");
     console.log(moviename);
     if (movietype == "hollywood") {
-        li.innerHTML = "<p>" + moviename + "</p> <button class=\"btn-2 watched\" type=\"button\" onclick=\"strike(this)\">Watched</button> <button class=\"btn-2 remove\" type=\"button\" onclick=\"removelist(this)\">Remove</button> <button class=\"btn-2 link\" type=\"button\"><a href=\"https://themoviesflix.cc/?s=" + moviename + " target=\"_blank\">Links</a></button>"
+        li.innerHTML = "<p>" + moviename + "</p> <button class=\"btn-2 watched\" type=\"button\" onclick=\"strike(this)\">Watched</button> <button class=\"btn-2 remove\" type=\"button\" onclick=\"removelist(this)\">Remove</button> <button class=\"btn-2 link\" type=\"button\"><a href=\"https://themoviesflix.cc/?s=" + moviename + " \"target=\"_blank\">Links</a></button>"
     } else if (movietype == "bollywood") {
-        li.innerHTML = "<p>" + moviename + "</p> <button class=\"btn-2 watched\" type=\"button\" onclick=\"strike(this)\">Watched</button> <button class=\"btn-2 remove\" type=\"button\" onclick=\"removelist(this)\">Remove</button> <button class=\"btn-2 link\" type=\"button\"><a href=\"https://hdmoviesflix.co/?s=" + moviename + " target=\"_blank\">Links</a></button>"
+        li.innerHTML = "<p>" + moviename + "</p> <button class=\"btn-2 watched\" type=\"button\" onclick=\"strike(this)\">Watched</button> <button class=\"btn-2 remove\" type=\"button\" onclick=\"removelist(this)\">Remove</button> <button class=\"btn-2 link\" type=\"button\"><a href=\"https://hdmoviesflix.co/?s=" + moviename + " \"target=\"_blank\">Links</a></button>"
     } else {
-        li.innerHTML = "<p>" + moviename + "</p> <button class=\"btn-2 watched\" type=\"button\" onclick=\"strike(this)\">Watched</button> <button class=\"btn-2 remove\" type=\"button\" onclick=\"removelist(this)\">Remove</button> <button class=\"btn-2 link\" type=\"button\"><a href=\"https://animeflix.in/?s=" + moviename + " target=\"_blank\">Links</a></button>"
+        li.innerHTML = "<p>" + moviename + "</p> <button class=\"btn-2 watched\" type=\"button\" onclick=\"strike(this)\">Watched</button> <button class=\"btn-2 remove\" type=\"button\" onclick=\"removelist(this)\">Remove</button> <button class=\"btn-2 link\" type=\"button\"><a href=\"https://animeflix.in/?s=" + moviename + " \"target=\"_blank\">Links</a></button>"
     }
     console.log(li);
     ul.appendChild(li);
