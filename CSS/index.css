@@ -87,7 +87,7 @@ html {
     margin: 3rem auto;
     font-size: 1.7rem;
     color: #fff;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .watch-list ul {
@@ -119,8 +119,11 @@ html {
 }
 
 footer {
-    position: sticky;
-    top: 100%;
+    /* position: sticky;
+    top: 100%; */
+    position: absolute;
+    bottom: 0;
+    display: block;
     margin: 1rem auto;
     text-align: center;
     width: 70%;
